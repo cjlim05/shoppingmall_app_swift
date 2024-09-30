@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5867988D2CA55A0A000A9B59 /* footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5867988C2CA55A0A000A9B59 /* footer.swift */; };
+		586798902CA56A4B000A9B59 /* category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5867988F2CA56A4B000A9B59 /* category.swift */; };
+		58688D4E2C919DBD00BCAE50 /* searchmain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58688D4D2C919DBD00BCAE50 /* searchmain.swift */; };
+		58688D502C91A29400BCAE50 /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58688D4F2C91A29400BCAE50 /* cart.swift */; };
+		58688D522C9267F400BCAE50 /* jobdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58688D512C9267F400BCAE50 /* jobdetail.swift */; };
+		58688D582C92760F00BCAE50 /* mypage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58688D572C92760F00BCAE50 /* mypage.swift */; };
+		58688D5A2C93F8E700BCAE50 /* homemain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58688D592C93F8E700BCAE50 /* homemain.swift */; };
+		58D34E762C91671400149813 /* capsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D34E752C91671400149813 /* capsappApp.swift */; };
+		58D34E782C91671400149813 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D34E772C91671400149813 /* ContentView.swift */; };
+		58D34E7A2C91671500149813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D34E792C91671500149813 /* Assets.xcassets */; };
+		58D34E7D2C91671500149813 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D34E7C2C91671500149813 /* Preview Assets.xcassets */; };
+		58D34E872C91671500149813 /* capsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D34E862C91671500149813 /* capsappTests.swift */; };
+		58D34E912C91671500149813 /* capsappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D34E902C91671500149813 /* capsappUITests.swift */; };
+		58D34E932C91671500149813 /* capsappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D34E922C91671500149813 /* capsappUITestsLaunchTests.swift */; };
+		58D34EA12C9176A900149813 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D34EA02C9176A900149813 /* BottomBar.swift */; };
+		58D34EA42C91809500149813 /* mainHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D34EA32C91809500149813 /* mainHome.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58D34E832C91671500149813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D34E6A2C91671400149813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D34E712C91671400149813;
+			remoteInfo = capsapp;
+		};
+		58D34E8D2C91671500149813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D34E6A2C91671400149813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D34E712C91671400149813;
+			remoteInfo = capsapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5867988C2CA55A0A000A9B59 /* footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footer.swift; sourceTree = "<group>"; };
+		5867988F2CA56A4B000A9B59 /* category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = category.swift; sourceTree = "<group>"; };
+		58688D4D2C919DBD00BCAE50 /* searchmain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchmain.swift; sourceTree = "<group>"; };
+		58688D4F2C91A29400BCAE50 /* cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
+		58688D512C9267F400BCAE50 /* jobdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobdetail.swift; sourceTree = "<group>"; };
+		58688D572C92760F00BCAE50 /* mypage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypage.swift; sourceTree = "<group>"; };
+		58688D592C93F8E700BCAE50 /* homemain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homemain.swift; sourceTree = "<group>"; };
+		58D34E722C91671400149813 /* capsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D34E752C91671400149813 /* capsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capsappApp.swift; sourceTree = "<group>"; };
+		58D34E772C91671400149813 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58D34E792C91671500149813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58D34E7C2C91671500149813 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58D34E822C91671500149813 /* capsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = capsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D34E862C91671500149813 /* capsappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capsappTests.swift; sourceTree = "<group>"; };
+		58D34E8C2C91671500149813 /* capsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = capsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D34E902C91671500149813 /* capsappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capsappUITests.swift; sourceTree = "<group>"; };
+		58D34E922C91671500149813 /* capsappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capsappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58D34EA02C9176A900149813 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		58D34EA32C91809500149813 /* mainHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainHome.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58D34E6F2C91671400149813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D34E7F2C91671500149813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D34E892C91671500149813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5867988E2CA56A33000A9B59 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5867988F2CA56A4B000A9B59 /* category.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		58688D4C2C919D7E00BCAE50 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				58688D4D2C919DBD00BCAE50 /* searchmain.swift */,
+				58688D4F2C91A29400BCAE50 /* cart.swift */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		58688D562C92760200BCAE50 /* mypage */ = {
+			isa = PBXGroup;
+			children = (
+				58688D572C92760F00BCAE50 /* mypage.swift */,
+			);
+			path = mypage;
+			sourceTree = "<group>";
+		};
+		58688D642C9405F400BCAE50 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		58D34E692C91671400149813 = {
+			isa = PBXGroup;
+			children = (
+				5867988E2CA56A33000A9B59 /* Category */,
+				58688D562C92760200BCAE50 /* mypage */,
+				58688D4C2C919D7E00BCAE50 /* search */,
+				58D34EA22C917E5A00149813 /* home */,
+				58D34E9F2C91763A00149813 /* Util */,
+				58D34E742C91671400149813 /* capsapp */,
+				58D34E852C91671500149813 /* capsappTests */,
+				58D34E8F2C91671500149813 /* capsappUITests */,
+				58D34E732C91671400149813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58D34E732C91671400149813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58D34E722C91671400149813 /* capsapp.app */,
+				58D34E822C91671500149813 /* capsappTests.xctest */,
+				58D34E8C2C91671500149813 /* capsappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58D34E742C91671400149813 /* capsapp */ = {
+			isa = PBXGroup;
+			children = (
+				58D34E752C91671400149813 /* capsappApp.swift */,
+				58D34E772C91671400149813 /* ContentView.swift */,
+				58D34E792C91671500149813 /* Assets.xcassets */,
+				58D34E7B2C91671500149813 /* Preview Content */,
+			);
+			path = capsapp;
+			sourceTree = "<group>";
+		};
+		58D34E7B2C91671500149813 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58D34E7C2C91671500149813 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58D34E852C91671500149813 /* capsappTests */ = {
+			isa = PBXGroup;
+			children = (
+				58D34E862C91671500149813 /* capsappTests.swift */,
+			);
+			path = capsappTests;
+			sourceTree = "<group>";
+		};
+		58D34E8F2C91671500149813 /* capsappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58D34E902C91671500149813 /* capsappUITests.swift */,
+				58D34E922C91671500149813 /* capsappUITestsLaunchTests.swift */,
+			);
+			path = capsappUITests;
+			sourceTree = "<group>";
+		};
+		58D34E9F2C91763A00149813 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				58D34EA02C9176A900149813 /* BottomBar.swift */,
+				5867988C2CA55A0A000A9B59 /* footer.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		58D34EA22C917E5A00149813 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				58688D642C9405F400BCAE50 /* images */,
+				58D34EA32C91809500149813 /* mainHome.swift */,
+				58688D512C9267F400BCAE50 /* jobdetail.swift */,
+				58688D592C93F8E700BCAE50 /* homemain.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58D34E712C91671400149813 /* capsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D34E962C91671500149813 /* Build configuration list for PBXNativeTarget "capsapp" */;
+			buildPhases = (
+				58D34E6E2C91671400149813 /* Sources */,
+				58D34E6F2C91671400149813 /* Frameworks */,
+				58D34E702C91671400149813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = capsapp;
+			productName = capsapp;
+			productReference = 58D34E722C91671400149813 /* capsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58D34E812C91671500149813 /* capsappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D34E992C91671500149813 /* Build configuration list for PBXNativeTarget "capsappTests" */;
+			buildPhases = (
+				58D34E7E2C91671500149813 /* Sources */,
+				58D34E7F2C91671500149813 /* Frameworks */,
+				58D34E802C91671500149813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D34E842C91671500149813 /* PBXTargetDependency */,
+			);
+			name = capsappTests;
+			productName = capsappTests;
+			productReference = 58D34E822C91671500149813 /* capsappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58D34E8B2C91671500149813 /* capsappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D34E9C2C91671500149813 /* Build configuration list for PBXNativeTarget "capsappUITests" */;
+			buildPhases = (
+				58D34E882C91671500149813 /* Sources */,
+				58D34E892C91671500149813 /* Frameworks */,
+				58D34E8A2C91671500149813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D34E8E2C91671500149813 /* PBXTargetDependency */,
+			);
+			name = capsappUITests;
+			productName = capsappUITests;
+			productReference = 58D34E8C2C91671500149813 /* capsappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58D34E6A2C91671400149813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					58D34E712C91671400149813 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					58D34E812C91671500149813 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 58D34E712C91671400149813;
+					};
+					58D34E8B2C91671500149813 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 58D34E712C91671400149813;
+					};
+				};
+			};
+			buildConfigurationList = 58D34E6D2C91671400149813 /* Build configuration list for PBXProject "capsapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58D34E692C91671400149813;
+			productRefGroup = 58D34E732C91671400149813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58D34E712C91671400149813 /* capsapp */,
+				58D34E812C91671500149813 /* capsappTests */,
+				58D34E8B2C91671500149813 /* capsappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58D34E702C91671400149813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D34E7D2C91671500149813 /* Preview Assets.xcassets in Resources */,
+				58D34E7A2C91671500149813 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D34E802C91671500149813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D34E8A2C91671500149813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58D34E6E2C91671400149813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D34E782C91671400149813 /* ContentView.swift in Sources */,
+				586798902CA56A4B000A9B59 /* category.swift in Sources */,
+				58688D4E2C919DBD00BCAE50 /* searchmain.swift in Sources */,
+				58D34E762C91671400149813 /* capsappApp.swift in Sources */,
+				58688D502C91A29400BCAE50 /* cart.swift in Sources */,
+				58D34EA12C9176A900149813 /* BottomBar.swift in Sources */,
+				58D34EA42C91809500149813 /* mainHome.swift in Sources */,
+				58688D522C9267F400BCAE50 /* jobdetail.swift in Sources */,
+				5867988D2CA55A0A000A9B59 /* footer.swift in Sources */,
+				58688D582C92760F00BCAE50 /* mypage.swift in Sources */,
+				58688D5A2C93F8E700BCAE50 /* homemain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D34E7E2C91671500149813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D34E872C91671500149813 /* capsappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D34E882C91671500149813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D34E912C91671500149813 /* capsappUITests.swift in Sources */,
+				58D34E932C91671500149813 /* capsappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58D34E842C91671500149813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D34E712C91671400149813 /* capsapp */;
+			targetProxy = 58D34E832C91671500149813 /* PBXContainerItemProxy */;
+		};
+		58D34E8E2C91671500149813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D34E712C91671400149813 /* capsapp */;
+			targetProxy = 58D34E8D2C91671500149813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58D34E942C91671500149813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58D34E952C91671500149813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58D34E972C91671500149813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"capsapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newapp.capsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58D34E982C91671500149813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"capsapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newapp.capsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58D34E9A2C91671500149813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newapp.capsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/capsapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/capsapp";
+			};
+			name = Debug;
+		};
+		58D34E9B2C91671500149813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newapp.capsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/capsapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/capsapp";
+			};
+			name = Release;
+		};
+		58D34E9D2C91671500149813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newapp.capsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = capsapp;
+			};
+			name = Debug;
+		};
+		58D34E9E2C91671500149813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newapp.capsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = capsapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58D34E6D2C91671400149813 /* Build configuration list for PBXProject "capsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D34E942C91671500149813 /* Debug */,
+				58D34E952C91671500149813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D34E962C91671500149813 /* Build configuration list for PBXNativeTarget "capsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D34E972C91671500149813 /* Debug */,
+				58D34E982C91671500149813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D34E992C91671500149813 /* Build configuration list for PBXNativeTarget "capsappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D34E9A2C91671500149813 /* Debug */,
+				58D34E9B2C91671500149813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D34E9C2C91671500149813 /* Build configuration list for PBXNativeTarget "capsappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D34E9D2C91671500149813 /* Debug */,
+				58D34E9E2C91671500149813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58D34E6A2C91671400149813 /* Project object */;
+}
