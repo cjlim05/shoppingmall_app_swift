@@ -14,6 +14,7 @@
 		58688D522C9267F400BCAE50 /* jobdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58688D512C9267F400BCAE50 /* jobdetail.swift */; };
 		58688D582C92760F00BCAE50 /* mypage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58688D572C92760F00BCAE50 /* mypage.swift */; };
 		58688D5A2C93F8E700BCAE50 /* homemain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58688D592C93F8E700BCAE50 /* homemain.swift */; };
+		58B78DD82CAEB0C7000FCCAA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B78DD72CAEB0C7000FCCAA /* Login.swift */; };
 		58D34E762C91671400149813 /* capsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D34E752C91671400149813 /* capsappApp.swift */; };
 		58D34E782C91671400149813 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D34E772C91671400149813 /* ContentView.swift */; };
 		58D34E7A2C91671500149813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D34E792C91671500149813 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		58688D512C9267F400BCAE50 /* jobdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobdetail.swift; sourceTree = "<group>"; };
 		58688D572C92760F00BCAE50 /* mypage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypage.swift; sourceTree = "<group>"; };
 		58688D592C93F8E700BCAE50 /* homemain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homemain.swift; sourceTree = "<group>"; };
+		58B78DD72CAEB0C7000FCCAA /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		58D34E722C91671400149813 /* capsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = capsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D34E752C91671400149813 /* capsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capsappApp.swift; sourceTree = "<group>"; };
 		58D34E772C91671400149813 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				58688D572C92760F00BCAE50 /* mypage.swift */,
+				58B78DD72CAEB0C7000FCCAA /* Login.swift */,
 			);
 			path = mypage;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				58D34E782C91671400149813 /* ContentView.swift in Sources */,
 				586798902CA56A4B000A9B59 /* category.swift in Sources */,
 				58688D4E2C919DBD00BCAE50 /* searchmain.swift in Sources */,
+				58B78DD82CAEB0C7000FCCAA /* Login.swift in Sources */,
 				58D34E762C91671400149813 /* capsappApp.swift in Sources */,
 				58688D502C91A29400BCAE50 /* cart.swift in Sources */,
 				58D34EA12C9176A900149813 /* BottomBar.swift in Sources */,
