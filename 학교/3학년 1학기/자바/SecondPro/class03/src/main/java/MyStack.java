@@ -1,0 +1,3 @@
+//classGStack<>
+//public class MyStack {
+//}

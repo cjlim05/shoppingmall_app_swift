@@ -1,0 +1,21 @@
+wrapper
+기본 타입의 변수는 값이 들어가있다.
+wrapper는 참조가 들어가 있다. -> 실제 객체를 생성해야한다.
+
+박싱
+: 기본 타입의 값을 wrapper 객체로 변환
+언박싱
+: wrapperㅐ객체로 값을 뺴배는 것
+Integer ten = Integet.valueOf(10);
+int n = ten.intValue();
+
+String 객체는 수정이 불가능하다!!!!!!!!!!!!
+스트링을 비교할 때는 == 이 아니라 equals를 사용해야한다
+
+
+immutable(String, Integer..변경 할 수 없다.) <-> mutable()
+
+=====================================
+자바 인터페이스와 클래스
+
+컬랙션 : 기본타입 사용 불가능

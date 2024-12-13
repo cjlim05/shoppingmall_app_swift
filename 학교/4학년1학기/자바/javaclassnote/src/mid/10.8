@@ -1,0 +1,66 @@
+강의 노트
+인터페이스
+
+인터페이스란? : 데이터를 주고박는 규격을 의미한다.
+
+puvlic interface 인터페이스_이름{
+    데이터 필드 xxxx -> 없음
+    반환형 추상메소드()
+    반환형 추상메소드ㄷ()
+}
+
+예
+
+public interface RemoteControl{
+    public void turnOn();
+    public void turnOff();
+}
+public을 지정하지 않아도 자동으로 public이 된다.
+
+인터페이스 구현
+public class 클래스_이름 implements 인터페이스_이름{
+    반환형... 추상메소드1(){}
+    반환형... 추상메소드2(){}
+}
+예
+public class Telwvision implements RemoteControl{
+    boolean onOff = false;
+
+    public void trunOn(){onOff = true}
+    public void trunOff(){onOff = false}  -> 이게 없으면 new할 수 없다. 생성자 호출이 불가능!!!
+}
+
+인터페이스를 사용하는 경우
+-관련없는 클래스들이 인터페이스를 구현하기를 원할 떄,
+-특정한 자료형 동작을 지정하고 싶지만 누가 구현하든지 신경 쓸 필요가 없을떄
+-다중 상속이 필요없을 때
+
+
+
+객체 비교하기
+: 인터페이스를 자료형으로 생각하기(인터페이스 == 자료형 )
+RemoteControl r1 -> 가능
+new RemoteControl(r1) -> 불가능
+
+디폴트 메소드
+
+정적 메소드
+
+
+무명 클래스 -> 람다식쪾에서 한다
+
+7장ㅇ에서 한다
+
+페키지
+
+
+
+........
+10장 이벤트 처리 ...................................................................................................................
+
+
+
+
+무명 클래시
+클래스 몸체는 정의 되지만..
+

@@ -1,0 +1,9 @@
+객체배열 중요하다.
+Circle [] c;
+c = new Circle[5];
+
+for(int i =0; i<c.length;i++)
+    c[i] = new Circle(i);
+
+for(int i=0; i<c.length;i++)
+    system.out.println((int)(c[i].getArea())+" ")
